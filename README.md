@@ -2,7 +2,8 @@
 
 This project includes a calculator with basic operations, a currency converter, and a countdown timer. It was developed using HTML, CSS, and JavaScript.
 
-**Features**
+**Features** : 
+
 **Calculator** : Supports addition, subtraction, multiplication, and division (Basic operations).
 
 **Currency Converter**: Converts between different currencies.
