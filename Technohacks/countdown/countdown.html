@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="countdown.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Countdown Timer</title>
+
+</head>
+<body>
+<div class="container">
+  <label for="timeInput">Set Countdown Time (seconds):</label>
+  <input type="number" id="timeInput" min="1"  placeholder="Enter the time">
+  <br>
+  <button onclick="startTimer()">Start</button>
+  <button onclick="stopTimer()">Stop</button>
+  <button onclick="resetTimer()">Reset</button>
+  <br>
+
+  <span id="timer"></span>
+</div>
+<script src="countdown.js"> </script>
+</body>
+</html>
